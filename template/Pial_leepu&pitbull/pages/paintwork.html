@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="../css/bootstrap.min.css" rel="stylesheet">
+    <link href="../css/style.css" rel="stylesheet">
+	<script src="https://use.fontawesome.com/afa983d8a3.js"></script>
+
+	<title>Pial's Bootstrap</title>
+</head>
+<body>
+<section>
+	<nav class="navbar navbar-inverse navbar-fixed-top">
+	    <!-- Brand and toggle get grouped for better mobile display -->
+	    <div class="navbar-header">
+	      	<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+	        <span class="sr-only">Toggle navigation</span>
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	      	</button>
+	      	</div>
+		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+	    <ul class="nav navbar-nav text-center">
+	        <li><a href="../index.html">HOME</a></li>
+	        <li class="dropdown">
+	          	<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">SERVICES<span class="caret"></span></a>
+	          		<ul class="dropdown-menu">
+			            <li><a href="repairs.html">REPAIRS</a></li>
+			            <li role="separator" class="divider"></li>
+			            <li><a href="upholstery.html">UPHOLSTERY</a></li>
+			            <li role="separator" class="divider"></li>
+			            <li><a href="paintwork.html">PAINTWORK</a></li>
+	          		</ul>
+	        </li>
+	        <li><a href="#work-segment">OUR WORK</a></li>
+	        <li><a href="#about-segment">ABOUT US</a></li>
+	        <li><a href="#contact-segment">CONTACT</a></li>
+	    </ul>
+	    </div> 
+	</nav>
+</section>
+<!-- <h3 style="margin-top: 50px;">PAINTWORK</h3>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet, architecto.</p> -->
+<section id="test">
+<div>Scroll Down</div>
+<h1 id="scroll-to">I am The H1</h1>
+</section>
+<footer>
+<div class="container">
+	<div class="row text-center foot-icon">
+		<div class="col-md-6 col-md-offset-3">
+			<a href="#"><i class="fa fa-facebook-square"></i></a>
+			<a href="#"><i class="fa fa-twitter-square""></i></a>
+			<a href="#"><i class="fa fa-google-plus-square"></i></a>
+			<a href="#"><i class="fa fa-skype"></i></a>
+			<a href="#"><i class="fa fa-linkedin-square"></i></a>
+
+			<div><p>copyright - Md. Abdullah Al Noman</p></div>
+		</div>
+	</div>
+</div>
+</footer>
+
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<!-- Include all compiled plugins (below), or include individual files as needed -->
+	<script src="../js/bootstrap.min.js"></script>
+	<script type="text/javascript">
+		$(window).scroll(function() {
+   var hT = $('#scroll-to').offset().top,
+       hH = $('#scroll-to').outerHeight(),
+       wH = $(window).height(),
+       wS = $(this).scrollTop();
+    console.log((hT-wH) , wS);
+   if (wS > (hT+hH-wH)){
+     console.log(hT,hH,wH,wS);
+   }
+});
+	</script>
+</body>
+</html>

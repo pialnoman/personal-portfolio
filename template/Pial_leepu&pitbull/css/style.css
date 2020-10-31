@@ -1,0 +1,182 @@
+body {
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+}
+.navbar-inverse{
+	border-radius: 0px;
+}
+.icon {
+	margin-top: 100px;
+	letter-spacing: 10px;
+	color: black;
+	text-shadow: 0px 0px 30px black;
+}
+.icon p{
+	font-weight: 500;
+	font-size: 18px;
+	letter-spacing: 5px;
+	text-shadow: 1px 1px 20px black;
+}
+.icon a{
+	font-size: 40px;
+	text-align: center;
+	border: none;
+	color: black;
+	border-radius: 3px 3px;
+}
+.icon a:hover{
+	color: white;
+}
+.media a i{
+    margin-top: 300px;
+    font-size: 30px;
+    margin-bottom: 50px;
+}
+.services {
+    background-image: url(../image/background2.jpg);
+    background-size: cover;
+    color: white;
+    width: 100%;
+    height: 620px;
+}
+.services h2{
+    font-weight: 100;
+    padding-top: 100px;
+}
+.services h1{
+    margin: -20px 0;
+    font-weight: bold;
+    line-height: 20px;
+}
+.services img{
+	width: 100px;
+	height: 100px;
+}
+.services .row {
+    margin-top: 150px;
+}
+.services .col-md-offset-3 {
+    margin-left: 26%;
+}
+.services h3 {
+    font-weight: 100;
+    padding-top: 15px;
+}
+.work{
+	background-color: white;
+	padding: 40px 0px;
+}
+.work h1 {
+    margin-top: -20px;
+}
+.carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img {
+    display: block;
+    width: 100%;
+    height: 500px;
+}
+.about {
+    background-image: url(../image/background3.jpg);
+    background-size: cover;
+    margin-top: -40px;
+    padding: 150px 325px;
+}
+.aboutBox{
+	background-color: white;
+	width: 600px;
+	height: 500px;
+	margin: 100px auto;
+	padding: 20px 50px;
+}
+.aboutBox h1{
+	    margin-top: -20px;
+}
+.owner {
+    background-color: white;
+    width: 100%;
+    height: 380px;
+}
+.owner-image{
+    
+}
+.owner img {
+    width: 50%;
+    height: 360px;
+    float: left;
+}
+.find-us{
+    background-image: url(../image/find-us-back.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: center;
+    margin-top: -20px;
+    padding: 150px 325px;
+}
+.address{
+    text-align: left;
+}
+.mail{
+    height: 100%;
+}
+.mail input{
+    border: 1px solid black;
+    margin: 10px 0px;
+    width: 100%;
+}
+.mail textarea{
+    border: 1px solid black;
+    margin: 10px 0px;
+    width: 100%;
+    max-width: 100%;
+    min-height: 135px;
+    max-height: 135px;
+}
+.mail #send-button{
+    width: 100px;
+    background-color: black;
+    color: white;
+    float: right;
+    padding: 5px;
+}
+footer{
+    background-color: gray;
+}
+.foot-icon{
+    letter-spacing: 10px;
+    color: black;
+    text-shadow: 0px 0px 30px black;
+}
+.foot-icon a i{
+    font-size: 30px;
+}
+.foot-icon p{
+    font-weight: 500;
+    font-size: 18px;
+    letter-spacing: 5px;
+    text-shadow: 1px 1px 20px black;
+}
+.foot-icon a{
+    font-size: 40px;
+    text-align: center;
+    border: none;
+    color: black;
+    border-radius: 3px 3px;
+}
+.foot-icon a:hover{
+    color: white;
+}
+
+
+#test{
+  margin: 0px;
+}
+#test div {
+    height:800px;
+    background:red;
+}
+#test h1{
+  padding: 0;
+  margin: 0;
+  height: 100px;
+  background-color: yellow;
+}

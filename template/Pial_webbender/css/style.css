@@ -1,0 +1,86 @@
+.navbar-brand img {
+    display: block;
+    margin: -5px;
+}
+.navbar-default{
+  background: white;
+  box-shadow: none;
+}
+.banner{
+	background-image: url('../image/banner.jpg');
+	padding: 207px;
+	color: white;
+}
+.banner h1 {
+    font-size: 60px;
+    letter-spacing: 15px;
+}
+.banner p {
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+.btn {
+    border-radius: 35px;
+    border: none;
+    background-color: #82c22b;
+    padding: 10px 25px;
+    color: white;
+    margin: 35px;
+}
+.btn:hover{
+	color: white;
+	background-color: #61a92e;
+}
+.intro{
+	background-color: #82c22b; 
+}
+.introText{
+	padding: 50px;
+	color: white;
+}
+.content{
+	padding: 50px;
+}
+.classifyButton{
+	margin: 0px;
+}
+.content-2{
+	background-color: #222;
+	color: white;
+}
+.services{
+	height: 250px;
+	background-size: cover;
+	color: white;
+}
+.services:hover{
+	opacity: 0.8;
+}
+.services h2 {
+    line-height: 220px;
+    font-size: 40px;
+    text-shadow: 0px 0px 40px black;
+    background-color: rgba(0,0,0,0);
+}
+.conclusion{
+	text-align: center;
+	padding: 50px;
+}
+.pin{
+	color: #82c22b;
+	font-size: 60px;
+}
+.contact{
+	background-color: #82c22b;
+	color: white;
+	padding: 50px;
+	text-align: center;
+	font-size: 25px;
+}
+.contact h2{
+	font-size: 35px;
+}
+.footer{
+	text-align: center;
+	padding: 20px;
+}
